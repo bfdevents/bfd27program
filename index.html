@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Event Program</title>
+
+  <style>
+    .standard {
+      font-size: 0.7rem;
+      padding: 5px;
+    }
+
+    .topic {
+      background-color: #f9fafc;
+      color: #000000;
+      vertical-align: middle;
+    }
+
+    .topic-break {
+      background-color: #3ea2f2;
+      color: #ffffff;
+      vertical-align: middle;
+    }
+
+    .topic-category {
+      color: #25abf4;
+    }
+
+    .topic-details {
+      vertical-align: bottom;
+    }
+
+    .topic-blurb {
+      text-align: justify;
+      padding: 5px;
+    }
+
+    .topic-hidden {
+      background-color: #c3cbdb;
+    }
+
+    .time {
+      border: 1px solid #b1bfd7;
+      padding-top: 2px;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .program-table {
+      text-align: center;
+      background: #f9fafc;
+      border: 5px solid #c2cbda;
+      margin: 0 auto;
+      border-collapse: collapse;
+    }
+
+    .program-table th,
+    .program-table td {
+      border: 1px solid #c2cbda;
+    }
+
+    .program-table th {
+      padding: 2px;
+      font-size: 0.8rem;
+    }
+
+    .header-time {
+      width: 150px;
+      text-align: center;
+    }
+
+    .room {
+      width: 300px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <table class="program-table">
+    <thead>
+      <tr>
+        <th class="header-time">Time</th>
+        <th class="room">Ballroom A</th>
+        <th class="room">Ballroom B</th>
+        <th class="room">Ballroom C</th>
+        <th class="room">Queens Ballroom</th>
+        <th class="header-time">Moreton</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td class="standard time topic">8:00</td>
+
+        <td class="standard topic">
+          <p><b>Calibre Interiors Topic 1</b></p>
+          <p>Angelie Ortiz</p>
+
+          <details class="topic-details">
+            <summary><small>About this session</small></summary>
+
+            <div class="topic-blurb">
+              <p>
+                Your front desk is the heartbeat of your practice—but too often
+                they are overwhelmed by repetitive, low-value tasks. AI voice
+                agents can take on these routine jobs, freeing your staff to
+                focus on the higher-value, patient-centred work that truly matters.
+              </p>
+
+              <p>
+                In this session, you’ll discover how to strategically integrate
+                voice agents into your practice, streamlining workflows, reducing
+                burnout, and boosting job satisfaction for your team.
+              </p>
+            </div>
+          </details>
+        </td>
+
+        <td class="standard topic">
+          <p><b>BFD Education Topic 1</b></p>
+
+          <details class="topic-details">
+            <summary><small>About this session</small></summary>
+
+            <div class="topic-blurb">
+              <p>
+                Your front desk is the heartbeat of your practice—but too often
+                they are overwhelmed by repetitive, low-value tasks.
+              </p>
+            </div>
+          </details>
+        </td>
+
+        <td class="topic-hidden"></td>
+
+        <td class="standard topic">
+          <p><b>More details coming soon</b></p>
+
+          <details class="topic-details">
+            <summary><small>About this session</small></summary>
+
+            <div class="topic-blurb">
+              <p>
+                Your front desk is the heartbeat of your practice—but too often
+                they are overwhelmed by repetitive, low-value tasks.
+              </p>
+            </div>
+          </details>
+        </td>
+
+        <td class="topic-hidden"></td>
+      </tr>
+
+      <tr>
+        <td class="standard time topic-break">9:00</td>
+        <td class="standard topic-break"><b>Lunch</b></td>
+        <td class="standard topic-break"><b>Lunch</b></td>
+        <td class="standard topic-break"><b>Lunch</b></td>
+        <td class="standard topic-break"><b>Lunch</b></td>
+        <td class="topic-hidden"></td>
+      </tr>
+
+      <tr>
+        <td class="standard time topic">10:00</td>
+        <td class="topic-hidden"></td>
+
+        <td class="standard topic">
+          <p><b>More details coming soon</b></p>
+
+          <details class="topic-details">
+            <summary><small>About this session</small></summary>
+
+            <div class="topic-blurb">
+              <p>
+                Your front desk is the heartbeat of your practice—but too often
+                they are overwhelmed by repetitive, low-value tasks.
+              </p>
+            </div>
+          </details>
+        </td>
+
+        <td class="topic-hidden"></td>
+
+        <td class="standard topic">
+          <p><b>More details coming soon</b></p>
+
+          <details class="topic-details">
+            <summary><small>About this session</small></summary>
+
+            <div class="topic-blurb">
+              <p>
+                Your front desk is the heartbeat of your practice—but too often
+                they are overwhelmed by repetitive, low-value tasks.
+              </p>
+            </div>
+          </details>
+        </td>
+
+        <td class="topic-hidden"></td>
+      </tr>
+
+    </tbody>
+  </table>
+
+</body>
+</html>
